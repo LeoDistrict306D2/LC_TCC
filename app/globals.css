@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@600;700;800&display=swap');
+@import "tailwindcss";
+
+:root {
+  --leo-blue: #0033A0;
+  --leo-gold: #FFD700;
+  --leo-white: #ffffff;
+  --leo-dark: #0a0f1e;
+  --leo-navy: #001f6b;
+  --leo-light: #f0f4ff;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #ffffff;
+  color: #1a1a2e;
+}
+
+.font-display {
+  font-family: 'Playfair Display', serif;
+}
+
+/* Navbar underline */
+.navbar-link {
+  position: relative;
+}
+.navbar-link::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -4px;
+  left: 0;
+  background: #FFD700;
+  transition: width 0.3s ease;
+}
+.navbar-link:hover::after {
+  width: 100%;
+}
+
+/* Hero gradient */
+.hero-gradient {
+  background: linear-gradient(135deg, #0a0f1e 0%, #001f6b 40%, #0033A0 100%);
+}
+
+/* Card hover */
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card-hover:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(0, 51, 160, 0.2);
+}
+
+/* Gold gradient text */
+.gold-text {
+  background: linear-gradient(135deg, #FFD700, #FFA500);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Section fade */
+.section-fade {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+.section-fade.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Counter animation */
+@keyframes countUp {
+  from { opacity: 0; transform: scale(0.8); }
+  to   { opacity: 1; transform: scale(1); }
+}
+.counter-animate {
+  animation: countUp 0.6s ease forwards;
+}
+
+/* Dropdown */
+.dropdown-menu {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-10px);
+  transition: all 0.2s ease;
+}
+.dropdown-parent:hover .dropdown-menu {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #f1f1f1; }
+::-webkit-scrollbar-thumb { background: #0033A0; border-radius: 3px; }
+
+/* Pulse glow */
+@keyframes pulseGlow {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(255, 215, 0, 0.4); }
+  50%       { box-shadow: 0 0 0 12px rgba(255, 215, 0, 0); }
+}
+.pulse-glow {
+  animation: pulseGlow 2s infinite;
+}
