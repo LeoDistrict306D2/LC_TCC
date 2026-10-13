@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { useState, useEffect } from 'react';
 import CounterCard from '@/components/CounterCard';
 import {
@@ -72,12 +73,12 @@ const events = [
 ];
 
 const teamMembers = [
-  { name: 'Leo Samantha Perera', role: 'President', initial: 'SP' },
-  { name: 'Leo Kavinda Jayawardena', role: 'Vice President', initial: 'KJ' },
-  { name: 'Leo Nimesha Fernando', role: 'Secretary', initial: 'NF' },
-  { name: 'Leo Rasith Bandara', role: 'Treasurer', initial: 'RB' },
-  { name: 'Leo Dilsha Weerasinghe', role: 'Asst. Secretary', initial: 'DW' },
-  { name: 'Leo Thilina Gunasekara', role: 'Asst. Treasurer', initial: 'TG' },
+  { name: 'Leo Denuwan Chamath', role: 'President', photo: 'denuwan-chamath.jpg' },
+  { name: 'Leo Runithi Nuwanma', role: '1st Vice President', photo: 'runithi-nuwanma.jpg' },
+  { name: 'Leo Hesandu Sathiraka', role: '2nd Vice President', photo: 'hesandu-sathiraka.jpg' },
+  { name: 'Leo Pulathi Liyansa', role: 'Club Secretary', photo: 'pulathi-liyansa.jpg' },
+  { name: 'Leo Thenuki Thimasha', role: 'Club Treasurer', photo: 'thenuki-thimasha.jpg' },
+  { name: 'Leo Budhitha Sathnindu', role: 'Chief Editor', photo: 'budhitha-sathnindu.jpg' },
 ];
 
 const testimonials = [
@@ -394,8 +395,14 @@ export default function HomePage() {
           <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6 mb-10">
             {teamMembers.map((member) => (
               <div key={member.name} className="group text-center bg-gray-50 hover:bg-[#0033A0] rounded-2xl p-8 transition-all duration-300 card-hover border border-gray-100 hover:border-transparent">
-                <div className="w-20 h-20 bg-linear-to-br from-[#0033A0] to-[#001f6b] group-hover:from-[#FFD700] group-hover:to-[#FFA500] rounded-full flex items-center justify-center mx-auto mb-4 transition-all duration-300 shadow-lg">
-                  <span className="text-white group-hover:text-[#0033A0] font-black text-xl transition-colors duration-300">{member.initial}</span>
+                <div className="relative w-20 h-20 rounded-full overflow-hidden mx-auto mb-4 shadow-lg ring-2 ring-transparent group-hover:ring-[#FFD700] transition-all duration-300">
+                  <Image
+                    src={`/images/board/${member.photo}`}
+                    alt={member.name}
+                    fill
+                    sizes="80px"
+                    className="object-cover"
+                  />
                 </div>
                 <h3 className="font-bold text-gray-900 group-hover:text-white transition-colors duration-300">{member.name}</h3>
                 <p className="text-[#0033A0] group-hover:text-[#FFD700] text-sm font-semibold mt-1 transition-colors duration-300">{member.role}</p>
