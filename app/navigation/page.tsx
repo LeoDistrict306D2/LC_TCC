@@ -19,7 +19,7 @@ export default function NavigationPage() {
             <div>
               <h2 className="text-2xl font-black text-gray-900 font-display mb-2">Interactive Project Map</h2>
               <p className="text-gray-500 text-sm max-w-md">
-                This interactive map displays all service project locations of the Leo Club of Sample City. The live map is powered by an external mapping service.
+                This interactive map displays all service project locations of the Leo Club of Taxila Central College. The live map is powered by an external mapping service.
               </p>
             </div>
             <a
@@ -32,7 +32,7 @@ export default function NavigationPage() {
           {/* Region legend */}
           <div className="p-8 grid sm:grid-cols-2 md:grid-cols-4 gap-5">
             {[
-              { region: 'Sample City Central', projects: 48, color: 'bg-blue-500' },
+              { region: 'Horana Central', projects: 48, color: 'bg-blue-500' },
               { region: 'Sample North', projects: 32, color: 'bg-emerald-500' },
               { region: 'Sample South', projects: 27, color: 'bg-amber-500' },
               { region: 'Rural Outreach Zones', projects: 41, color: 'bg-purple-500' },

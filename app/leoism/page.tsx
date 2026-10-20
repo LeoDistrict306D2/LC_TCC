@@ -81,7 +81,7 @@ export default function LeoismsPage() {
                 { label: 'Age Range', value: '18 – 30 years (Standard), 12 – 17 (Junior)' },
                 { label: 'Membership Fee', value: 'Nominal annual fee — contact your local club' },
                 { label: 'Commitment', value: 'Monthly meetings + service projects' },
-                { label: 'Sponsor', value: 'Lions Club of Sample City' },
+                { label: 'Sponsor', value: 'Lions Club of Horana' },
                 { label: 'District', value: 'Leo District 306 D2, Multiple District 306' },
               ].map((item) => (
                 <div key={item.label} className="flex items-start gap-4 bg-white rounded-xl p-4 border border-gray-100 shadow-sm">

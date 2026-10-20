@@ -64,17 +64,17 @@ export default function Footer() {
             </div>
             <div>
               <div className="text-white font-bold text-lg leading-tight">Leo Club</div>
-              <div className="text-[#FFD700] text-sm font-medium">of Sample City</div>
+              <div className="text-[#FFD700] text-sm font-medium">of Taxila Central College</div>
             </div>
           </div>
           <p className="text-white/60 text-sm leading-relaxed mb-6">
-            A non-profit youth organization dedicated to community service, leadership development, and humanitarian efforts across Sample City and beyond. We grow through service.
+            A non-profit youth organization dedicated to community service, leadership development, and humanitarian efforts across Horana and beyond. We grow through service.
           </p>
           {/* Contact */}
           <div className="space-y-3">
             <div className="flex items-start gap-3 text-sm text-white/60">
               <MapPin className="w-4 h-4 mt-0.5 text-[#FFD700] shrink-0" />
-              <span>Leo Club of Sample City, 123 Unity Avenue,<br />Sample City, Sri Lanka 10000</span>
+              <span>Leo Club of Taxila Central College, Aguruwathota Road,<br />Horana, Sri Lanka</span>
             </div>
             <div className="flex items-center gap-3 text-sm text-white/60">
               <Phone className="w-4 h-4 text-[#FFD700] shrink-0" />
@@ -82,7 +82,7 @@ export default function Footer() {
             </div>
             <div className="flex items-center gap-3 text-sm text-white/60">
               <Mail className="w-4 h-4 text-[#FFD700] shrink-0" />
-              <span>info@leoclubsamplecity.org</span>
+              <span>info@leoclubtcc.org</span>
             </div>
           </div>
           {/* Social Icons */}
@@ -130,10 +130,10 @@ export default function Footer() {
       {/* Bottom Bar */}
       <div className="border-t border-white/10 py-5 px-4">
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3 text-sm text-white/40">
-          <p>© {new Date().getFullYear()} Leo Club of Sample City. All Rights Reserved.</p>
+          <p>© {new Date().getFullYear()} Leo Club of Taxila Central College. All Rights Reserved.</p>
           <div className="flex gap-4">
             <Link href="/privacy" className="hover:text-white/70 transition-colors">Privacy Policy</Link>
-            <Link href="/contact" className="hover:text-white/70 transition-colors">Contact</Link>
+            <Link href="/#contact" className="hover:text-white/70 transition-colors">Contact</Link>
           </div>
         </div>
       </div>

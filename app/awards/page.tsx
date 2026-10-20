@@ -97,7 +97,7 @@ export default function AwardsPage() {
       <PageHeader
         title="Awards & Recognition"
         subtitle="Two decades of excellence recognised at district, national and international levels."
-        breadcrumbs={[{ label: 'Leo Club SC' }, { label: 'Awards' }]}
+        breadcrumbs={[{ label: 'Leo Club TCC' }, { label: 'Awards' }]}
       />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 py-16">

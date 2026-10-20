@@ -14,9 +14,9 @@ export default function DirectoryPage() {
   return (
     <>
       <PageHeader
-        title="Club Directory 2025/26"
-        subtitle="The complete membership directory for the Leo Club of Sample City chapter year 2025/26."
-        breadcrumbs={[{ label: 'Downloads' }, { label: 'Club Directory 2025/26' }]}
+        title="Club Directory 2026/27"
+        subtitle="The complete membership directory for the Leo Club of Taxila Central College chapter year 2026/27."
+        breadcrumbs={[{ label: 'Downloads' }, { label: 'Club Directory 2026/27' }]}
       />
       <div className="max-w-5xl mx-auto px-4 sm:px-6 py-16 space-y-12">
         {/* Download hero */}
@@ -29,7 +29,7 @@ export default function DirectoryPage() {
               <span className="text-white/40 text-[10px]">4.2 MB</span>
             </div>
             <div>
-              <h2 className="text-3xl font-black font-display mb-2">Club Directory 2025/26</h2>
+              <h2 className="text-3xl font-black font-display mb-2">Club Directory 2026/27</h2>
               <p className="text-white/70 mb-2 text-sm">Complete member contact directory for the current chapter year including all committees, portfolios and contact information.</p>
               <p className="text-white/50 text-xs mb-6">Note: This document contains personal contact information. Treat it as confidential and do not share with non-members.</p>
               <a
@@ -62,13 +62,13 @@ export default function DirectoryPage() {
         <section>
           <h2 className="text-2xl font-black text-gray-900 font-display mb-6">Past Directories</h2>
           <div className="space-y-3">
-            {['2024/25', '2023/24', '2022/23', '2021/22', '2020/21'].map((year) => (
+            {['2025/26', '2024/25', '2023/24', '2022/23', '2021/22'].map((year) => (
               <div key={year} className="flex items-center justify-between bg-gray-50 border border-gray-100 rounded-xl px-6 py-4">
                 <div className="flex items-center gap-4">
                   <FileText className="w-5 h-5 text-[#0033A0]" />
                   <div>
                     <div className="font-semibold text-gray-800 text-sm">Club Directory {year}</div>
-                    <div className="text-gray-400 text-xs">Leo Club of Sample City</div>
+                    <div className="text-gray-400 text-xs">Leo Club of Taxila Central College</div>
                   </div>
                 </div>
                 <a href="#" className="flex items-center gap-2 text-[#0033A0] text-sm font-bold border border-[#0033A0] px-4 py-2 rounded-full hover:bg-[#0033A0] hover:text-white transition-all duration-300">

@@ -2,6 +2,7 @@ import PageHeader from '@/components/PageHeader';
 import { Trophy, Star } from 'lucide-react';
 
 const pastLeaders = [
+  { year: '2025/26', president: 'Leo Sanija Indeepa', secretary: '—', treasurer: '—' },
   { year: '2024/25', president: 'Leo David Karunarathna', secretary: 'Leo Amandhi Disanayake', treasurer: 'Leo Nimal Perera' },
   { year: '2023/24', president: 'Leo Buddika Seneviratne', secretary: 'Leo Pubudu Jayawardena', treasurer: 'Leo Kasun Rathnayaka' },
   { year: '2022/23', president: 'Leo Harini Wickrama', secretary: 'Leo Lahiru Bandara', treasurer: 'Leo Sachini Pathirana' },
@@ -30,7 +31,7 @@ export default function PastLeadersPage() {
       <PageHeader
         title="Past Leaders"
         subtitle="Celebrating two decades of exceptional leadership that built the foundation of our club."
-        breadcrumbs={[{ label: 'Leo Club SC' }, { label: 'Past Leaders' }]}
+        breadcrumbs={[{ label: 'Leo Club TCC' }, { label: 'Past Leaders' }]}
       />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 py-16">
@@ -40,7 +41,7 @@ export default function PastLeadersPage() {
           <Trophy className="w-12 h-12 text-[#FFD700] mb-4" />
           <h2 className="text-3xl font-black font-display mb-2">A Legacy of Leadership</h2>
           <p className="text-white/70 max-w-2xl leading-relaxed">
-            Since our founding in 2005, Leo Club of Sample City has been shaped by remarkable young leaders who dedicated their time, energy and passion to serve others. We honour their contributions and the legacy they built.
+            Since our founding in 2005, Leo Club of Taxila Central College has been shaped by remarkable young leaders who dedicated their time, energy and passion to serve others. We honour their contributions and the legacy they built.
           </p>
         </div>
 

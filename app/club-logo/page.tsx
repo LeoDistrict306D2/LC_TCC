@@ -17,8 +17,8 @@ export default function ClubLogoPage() {
     <>
       <PageHeader
         title="Club Logo"
-        subtitle="Brand identity guidelines and logo usage standards for the Leo Club of Sample City."
-        breadcrumbs={[{ label: 'Leo Club SC' }, { label: 'Club Logo' }]}
+        subtitle="Brand identity guidelines and logo usage standards for the Leo Club of Taxila Central College."
+        breadcrumbs={[{ label: 'Leo Club TCC' }, { label: 'Club Logo' }]}
       />
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6 py-16 space-y-16">
@@ -35,7 +35,7 @@ export default function ClubLogoPage() {
             </div>
             <div className="text-center">
               <div className="text-[#0033A0] font-black text-3xl tracking-wide font-display">LEO CLUB</div>
-              <div className="text-gray-500 text-sm font-semibold tracking-[0.4em] mt-1 uppercase">of Sample City</div>
+              <div className="text-gray-500 text-sm font-semibold tracking-[0.4em] mt-1 uppercase">of Taxila Central College</div>
               <div className="w-16 h-0.5 bg-[#FFD700] mx-auto mt-3 mb-3" />
               <div className="text-gray-400 text-xs tracking-widest uppercase">Leadership · Experience · Opportunity</div>
             </div>

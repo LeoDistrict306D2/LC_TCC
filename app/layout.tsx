@@ -4,12 +4,12 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Leo Club of Sample City | Leadership, Experience & Opportunity",
+  title: "Leo Club of Taxila Central College | Leadership, Experience & Opportunity",
   description:
-    "Leo Club of Sample City – A non-profit youth organization committed to community service, leadership, and humanitarian efforts. Join us in making a difference.",
-  keywords: "Leo Club, Sample City, community service, leadership, volunteers, non-profit",
+    "Leo Club of Taxila Central College – A non-profit youth organization committed to community service, leadership, and humanitarian efforts. Join us in making a difference.",
+  keywords: "Leo Club, Taxila Central College, Horana, community service, leadership, volunteers, non-profit",
   openGraph: {
-    title: "Leo Club of Sample City",
+    title: "Leo Club of Taxila Central College",
     description: "Leading with purpose, serving with heart.",
     type: "website",
   },

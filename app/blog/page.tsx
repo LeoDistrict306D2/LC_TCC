@@ -16,7 +16,7 @@ const posts = [
     date: 'February 2, 2026',
     author: 'Leo Piyumi Aberatne',
     category: 'Fundraiser',
-    excerpt: 'On a rainy January evening, Sample City\'s largest auditorium was packed to capacity. But Harmonia was more than a concert — it was a testament to human compassion...',
+    excerpt: 'On a rainy January evening, Horana\'s largest auditorium was packed to capacity. But Harmonia was more than a concert — it was a testament to human compassion...',
     color: 'from-amber-400 to-orange-500',
   },
   {
@@ -67,7 +67,7 @@ export default function BlogPage() {
     <>
       <PageHeader
         title="Blog"
-        subtitle="Stories, reflections and updates from the heart of Leo Club of Sample City."
+        subtitle="Stories, reflections and updates from the heart of Leo Club of Taxila Central College."
         breadcrumbs={[{ label: 'Projects' }, { label: 'Blog' }]}
       />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 py-16">

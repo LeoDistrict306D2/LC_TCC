@@ -5,7 +5,7 @@ const milestones = [
   {
     year: '2005',
     title: 'Foundation',
-    desc: 'Leo Club of Sample City was founded with 12 charter members, sponsored by the Lions Club of Sample City. The first meeting was held on June 15, 2005.',
+    desc: 'Leo Club of Taxila Central College was founded with 12 charter members, sponsored by the Lions Club of Horana. The first meeting was held on June 15, 2005.',
     icon: Flag,
     color: 'from-blue-500 to-blue-700',
   },
@@ -80,14 +80,14 @@ export default function JourneyPage() {
       <PageHeader
         title="Journey Towards Excellence"
         subtitle="Tracing two decades of service, growth and impact — from humble beginnings to global recognition."
-        breadcrumbs={[{ label: 'Leo Club SC' }, { label: 'Journey Towards Excellence' }]}
+        breadcrumbs={[{ label: 'Leo Club TCC' }, { label: 'Journey Towards Excellence' }]}
       />
 
       <div className="max-w-5xl mx-auto px-4 sm:px-6 py-16">
         {/* Intro */}
         <div className="text-center mb-16">
           <p className="text-gray-600 text-lg leading-relaxed max-w-3xl mx-auto">
-            Every great achievement starts with a single step. Since 2005, the Leo Club of Sample City has walked a remarkable path of service, learning, and impact. Here is our story — told through moments that shaped us.
+            Every great achievement starts with a single step. Since 2005, the Leo Club of Taxila Central College has walked a remarkable path of service, learning, and impact. Here is our story — told through moments that shaped us.
           </p>
         </div>
 

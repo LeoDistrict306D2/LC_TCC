@@ -12,7 +12,7 @@ export default function PrivacyPage() {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 py-16">
         <div className="prose prose-gray max-w-none space-y-8">
           <div className="bg-blue-50 border border-blue-100 rounded-2xl p-6">
-            <p className="text-[#0033A0] text-sm font-medium">Last updated: February 2026 · Leo Club of Sample City</p>
+            <p className="text-[#0033A0] text-sm font-medium">Last updated: February 2026 · Leo Club of Taxila Central College</p>
           </div>
 
           {[
@@ -22,7 +22,7 @@ export default function PrivacyPage() {
             { title: '4. Cookies', content: 'Our website may use cookies to enhance your browsing experience. You can set your browser to refuse cookies, however some parts of the site may not function properly without them.' },
             { title: '5. Third-Party Links', content: 'Our website may contain links to external websites. We are not responsible for the privacy practices of those sites and encourage you to read their privacy policies.' },
             { title: '6. Club Directory Confidentiality', content: 'The Club Directory contains personal contact information of members and is strictly confidential. It must not be shared outside the club membership without express consent.' },
-            { title: '7. Contact Us', content: 'If you have any questions about this privacy policy or wish to request access to or deletion of your personal data, please contact us at info@leoclubsamplecity.org or on +94 77 123 4567.' },
+            { title: '7. Contact Us', content: 'If you have any questions about this privacy policy or wish to request access to or deletion of your personal data, please contact us at info@leoclubtcc.org or on +94 77 123 4567.' },
           ].map((section) => (
             <div key={section.title} className="bg-white border border-gray-100 rounded-2xl p-8 shadow-sm">
               <h2 className="text-xl font-black text-gray-900 font-display mb-3">{section.title}</h2>

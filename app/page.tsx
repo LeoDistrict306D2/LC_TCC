@@ -17,7 +17,7 @@ const heroSlides = [
     headline: 'An Imperial Legend',
     subline: 'of Eminence',
     desc: 'We thrive for excellence with the sharpened swords of Leadership, Experience and Opportunity.',
-    accent: 'Serving Sample City since 2005',
+    accent: 'Serving Horana since 2005',
   },
   {
     headline: 'Collaborate With Us',
@@ -74,17 +74,19 @@ const events = [
 
 const teamMembers = [
   { name: 'Leo Denuwan Chamath', role: 'President', photo: 'denuwan-chamath.jpg' },
+  { name: 'Leo Sanija Indeepa', role: 'Immediate Past Club President', photo: 'sanija-indeepa.jpg' },
   { name: 'Leo Runithi Nuwanma', role: '1st Vice President', photo: 'runithi-nuwanma.jpg' },
   { name: 'Leo Hesandu Sathiraka', role: '2nd Vice President', photo: 'hesandu-sathiraka.jpg' },
   { name: 'Leo Pulathi Liyansa', role: 'Club Secretary', photo: 'pulathi-liyansa.jpg' },
   { name: 'Leo Thenuki Thimasha', role: 'Club Treasurer', photo: 'thenuki-thimasha.jpg' },
+  { name: 'Leo Bihanga Romindi', role: 'Assistant Secretary', photo: 'bihanga-romindi.jpg' },
   { name: 'Leo Budhitha Sathnindu', role: 'Chief Editor', photo: 'budhitha-sathnindu.jpg' },
 ];
 
 const testimonials = [
   { name: 'Leo Anjali Dias', role: 'Chapter Member', quote: 'Being part of this Leo Club transformed my perspective on leadership and community. The bonds we build are for life.', stars: 5 },
   { name: 'Leo Roshan Silva', role: 'Activity Coordinator', quote: 'Every project we undertake teaches us something new. This club has made me a better person and a stronger leader.', stars: 5 },
-  { name: 'Leo Madara Wickramasinghe', role: 'Former President', quote: 'The Leo Club of Sample City has always been at the forefront of community change. Proud of what we have achieved together.', stars: 5 },
+  { name: 'Leo Madara Wickramasinghe', role: 'Former President', quote: 'The Leo Club of Taxila Central College has always been at the forefront of community change. Proud of what we have achieved together.', stars: 5 },
 ];
 
 // ─── Component ───────────────────────────────────────────────────────────────
@@ -163,7 +165,7 @@ export default function HomePage() {
                     <div className="w-44 h-44 md:w-56 md:h-56 bg-linear-to-br from-[#FFD700] to-[#FFA500] rounded-full flex items-center justify-center shadow-2xl shadow-yellow-500/40">
                       <div className="text-center">
                         <div className="text-[#0033A0] font-black text-5xl md:text-6xl leading-none">LC</div>
-                        <div className="text-[#0033A0]/70 text-xs font-bold mt-1 tracking-widest">SAMPLE CITY</div>
+                        <div className="text-[#0033A0]/70 text-xs font-bold mt-1 tracking-widest">TAXILA CENTRAL COLLEGE</div>
                       </div>
                     </div>
                   </div>
@@ -218,8 +220,8 @@ export default function HomePage() {
               {activeTab === 'origin' && (
                 <div className="space-y-5">
                   <h3 className="text-3xl font-black text-gray-900 font-display">Our Humble Beginnings</h3>
-                  <p className="text-gray-600 leading-relaxed">The Leo Club of Sample City was founded in 2005 by a group of passionate youth who believed that young people could make a real difference in their communities. Starting with just 12 dedicated members, the club quickly grew into one of the most active Leo chapters in the district.</p>
-                  <p className="text-gray-600 leading-relaxed">Sponsored by the Lions Club of Sample City and affiliated with Leo District 306 D2, our club has maintained a steadfast commitment to the Leo motto: <em className="text-[#0033A0] font-semibold">&ldquo;Leadership, Experience and Opportunity.&rdquo;</em></p>
+                  <p className="text-gray-600 leading-relaxed">The Leo Club of Taxila Central College was founded in 2005 by a group of passionate students who believed that young people could make a real difference in their communities. Starting with just 12 charter members, the club quickly grew into one of the most active Leo chapters in the district.</p>
+                  <p className="text-gray-600 leading-relaxed">Sponsored by the Lions Club of Horana and affiliated with Leo District 306 D2, our club has maintained a steadfast commitment to the Leo motto: <em className="text-[#0033A0] font-semibold">&ldquo;Leadership, Experience and Opportunity.&rdquo;</em></p>
                   <Link href="/leoism" className="inline-flex items-center gap-2 text-[#0033A0] font-semibold hover:gap-4 transition-all duration-300 text-sm">
                     Learn About Leoism <ArrowRight className="w-4 h-4" />
                   </Link>
@@ -330,22 +332,22 @@ export default function HomePage() {
               <div className="bg-white/10 backdrop-blur rounded-2xl p-6 border border-white/20">
                 <div className="text-[#FFD700] font-bold text-sm mb-4 uppercase tracking-wider">Bank of Ceylon</div>
                 <div className="space-y-2 text-sm">
-                  <div className="flex justify-between"><span className="text-white/60">Account Name</span><span className="font-semibold">Leo Club Sample City</span></div>
+                  <div className="flex justify-between"><span className="text-white/60">Account Name</span><span className="font-semibold">Leo Club Taxila Central College</span></div>
                   <div className="flex justify-between"><span className="text-white/60">Account No.</span><span className="font-semibold">00 12345678</span></div>
-                  <div className="flex justify-between"><span className="text-white/60">Branch</span><span className="font-semibold">Sample City Branch</span></div>
+                  <div className="flex justify-between"><span className="text-white/60">Branch</span><span className="font-semibold">Horana Branch</span></div>
                 </div>
               </div>
               {/* Bank 2 */}
               <div className="bg-white/10 backdrop-blur rounded-2xl p-6 border border-white/20">
                 <div className="text-[#FFD700] font-bold text-sm mb-4 uppercase tracking-wider">People&apos;s Bank</div>
                 <div className="space-y-2 text-sm">
-                  <div className="flex justify-between"><span className="text-white/60">Account Name</span><span className="font-semibold">Leo Club Sample City</span></div>
+                  <div className="flex justify-between"><span className="text-white/60">Account Name</span><span className="font-semibold">Leo Club Taxila Central College</span></div>
                   <div className="flex justify-between"><span className="text-white/60">Account No.</span><span className="font-semibold">111 2222 3333 4444</span></div>
                   <div className="flex justify-between"><span className="text-white/60">Branch</span><span className="font-semibold">Central Branch (111)</span></div>
                 </div>
               </div>
             </div>
-            <p className="text-white/50 text-xs text-center mt-6">After transferring, please email us at <span className="text-[#FFD700]">info@leoclubsamplecity.org</span> with your receipt for acknowledgement.</p>
+            <p className="text-white/50 text-xs text-center mt-6">After transferring, please email us at <span className="text-[#FFD700]">info@leoclubtcc.org</span> with your receipt for acknowledgement.</p>
           </div>
         </div>
       </section>
@@ -448,7 +450,7 @@ export default function HomePage() {
       </section>
 
       {/* ── CONTACT / GET IN TOUCH ── */}
-      <section className="py-20 bg-white">
+      <section id="contact" className="py-20 bg-white">
         <div className="max-w-5xl mx-auto px-4 sm:px-6">
           <div className="text-center mb-12">
             <span className="inline-block bg-blue-50 text-[#0033A0] text-xs font-bold uppercase tracking-widest px-4 py-2 rounded-full mb-4">Contact Us</span>

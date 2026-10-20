@@ -57,7 +57,7 @@ export default function LionsPage() {
         <section className="bg-gray-50 rounded-3xl p-10">
           <h2 className="text-2xl font-black text-gray-900 font-display mb-6">Lions & Leo Relationship</h2>
           <div className="prose prose-gray max-w-none text-sm leading-relaxed space-y-4 text-gray-600">
-            <p>Every Leo Club is sponsored by a Lions Club. The sponsoring Lions Club provides financial backing, mentorship and administrative support to help Leo Clubs thrive. The Lions Club of Sample City proudly sponsors the Leo Club of Sample City.</p>
+            <p>Every Leo Club is sponsored by a Lions Club. The sponsoring Lions Club provides financial backing, mentorship and administrative support to help Leo Clubs thrive. The Lions Club of Horana proudly sponsors the Leo Club of Taxila Central College.</p>
             <p>Leo members regularly collaborate with Lions members on large-scale service projects. Upon ageing out of Leo (at 30), many Leos transition to full Lions membership, creating a seamless pathway of lifelong service.</p>
           </div>
         </section>

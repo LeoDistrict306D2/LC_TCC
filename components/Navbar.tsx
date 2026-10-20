@@ -7,7 +7,7 @@ import { Menu, X, ChevronDown } from 'lucide-react';
 const navItems = [
   { label: 'Home', href: '/' },
   {
-    label: 'Leo Club SC',
+    label: 'Leo Club TCC',
     href: '#',
     children: [
       { label: 'Current Leaders', href: '/current-leaders' },
@@ -74,7 +74,7 @@ export default function Navbar() {
             </div>
             <div className="leading-tight">
               <div className="text-white font-bold text-sm">Leo Club</div>
-              <div className="text-[#FFD700] text-xs font-medium">Sample City</div>
+              <div className="text-[#FFD700] text-xs font-medium">Taxila Central College</div>
             </div>
           </Link>
 
