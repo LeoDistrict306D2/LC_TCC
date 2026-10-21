@@ -110,3 +110,56 @@ body {
 .pulse-glow {
   animation: pulseGlow 2s infinite;
 }
+
+/* Entry splash. Pure CSS — no client JS — so it degrades correctly with
+   JavaScript off. */
+.splash-screen {
+  animation: splashOut 450ms ease 2300ms forwards;
+}
+
+.splash-rise {
+  animation: splashRise 700ms ease both;
+}
+
+.splash-orbit {
+  animation: spin 20s linear infinite;
+}
+
+.splash-bar-fill {
+  width: 0%;
+  animation: splashFill 2.1s ease forwards;
+}
+
+@keyframes splashOut {
+  to {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+  }
+}
+
+@keyframes splashRise {
+  from {
+    opacity: 0;
+    transform: translateY(1rem);
+  }
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes splashFill {
+  to { width: 100%; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .splash-screen,
+  .splash-rise,
+  .splash-orbit,
+  .splash-bar-fill {
+    animation-duration: 0.01ms !important;
+    animation-delay: 0ms !important;
+  }
+}

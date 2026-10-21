@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import SplashScreen from "@/components/SplashScreen";
 
 export const metadata: Metadata = {
   title: "Leo Club of Taxila Central College | Leadership, Experience & Opportunity",
@@ -23,6 +24,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="antialiased">
+        <SplashScreen />
         <Navbar />
         <main>{children}</main>
         <Footer />
